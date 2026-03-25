@@ -1,4 +1,44 @@
-p{
-    color:hotpink;
-    font-size: medium;
+h1{
+    color:#CD0768;
+    font-size:6vw;
+    position: relative;
+    font-family: myfont;
+}
+a{  color:#CD0768;
+    font-size:2vw;
+    position: relative;
+    font-family: myfont;}
+#bild{
+    width: 50vw;
+    border-color:deepskyblue;
+    background-color: #FFE2FB;
+}
+#container{
+    display:flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/Starbim.ttf);
+}
+.button{
+    width: 10vw;
+}
+
+#Blume{
+    width:10vw ;
+}
+#Blumekl{
+    width:6vw ;
+}
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
