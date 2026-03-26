@@ -1,8 +1,15 @@
+body{
+    cursor: ;
+}
+
 h1{
     color:#CD0768;
     font-size:80%;
     position: relative;
     font-family: myfont;
+
+    transition: background-color:black;
+
 }
 a{  color:#CD0768;
     font-size:2vw;
@@ -12,6 +19,7 @@ a{  color:#CD0768;
     width: 50vw;
     border-color:deepskyblue;
     background-color: #FFE2FB;
+    
 }
 #container{
     display:flex;
@@ -42,3 +50,23 @@ a{  color:#CD0768;
     transform: rotate(359deg);
   }
 }
+
+h1:hover{
+    background-color:black;
+    opacity:1;
+}
+
+.button:hover{
+    width:12vw
+}
+.button{
+    width: 10vw;
+    transition: width 0,2s;
+}
+
+@media (orientation: portrait){
+
+    #bild:
+    width: 100vw;
+}
+
