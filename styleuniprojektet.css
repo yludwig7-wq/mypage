@@ -60,7 +60,7 @@ h1{
 #gif{
     width: 30vw;
     border-color:#F3B691;
-    border-width: 2px;
+    border-width: 5px;
     border-style: dotted;
     display: block;       /* nötig für margin auto */
     margin: 0 auto; 
