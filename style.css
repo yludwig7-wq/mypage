@@ -95,7 +95,7 @@ margin: 10 px;
 
 
 .content-image {
-    width: 80;
+    width: 80vw;
 
     margin-bottom: 5vw;
 }
@@ -131,3 +131,12 @@ margin: 10 px;
         width: 90%;
     }
 }
+
+@keyframes hop {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-8px); }
+    50%  { transform: translateY(0); }
+    70%  { transform: translateY(-4px); }
+    100% { transform: translateY(0); }
+}
+
