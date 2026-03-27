@@ -40,9 +40,9 @@ a{  color:#CD0768;
 }
 
 #Blume1 { position: absolute; top: 6%; right: 20%;width: 6vw; }
-#Blume2 { position: absolute; top: 4%; right: 2%;width: 15vw }
-#Blume4 { position: absolute; top: 35%; right: 3%; width: 7vw }
-#Blume3 { position: absolute; top: 3%; left: 11%; width: 12vw }
+#Blume2 { position: absolute; top: 4%; right: 2%;width: 12vw }
+#Blume4 { position: absolute; top: 35%; right: 3%; width: 5vw }
+#Blume3 { position: absolute; top: 3%; left: 11%; width: 10vw }
 #Blume5 { position: absolute; top: 22%; left: 3%; width: 9vw }
 .rotate {
   animation: rotation 8s infinite linear;
