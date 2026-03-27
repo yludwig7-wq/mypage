@@ -39,7 +39,7 @@ body{
 #logo:hover {
     transition:  transform 0.1s ease-out;
     transform: scale(1.15); 
-    cursor: url("./images/cursor.svg"), auto;
+    cursor: url("images/cursor.png"), auto;
 }    
 #button{
   width: 10vw;

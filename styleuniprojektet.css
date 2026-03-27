@@ -35,7 +35,7 @@ body{
   }
 }
 #uniprojekt{
-    width: 40vw;
+
     display: flex;
     border-color:#B5F4FF;
     border-width: 2px;
@@ -43,7 +43,11 @@ body{
 }
 
 #container{
-    width: 70vw;
+    width: 30vw;
+    border-width: 5px;
+    border-style: dotted;
+    display: flex;     
+    margin: 0 auto; 
     align-items: center;
 }
 h1{
@@ -63,7 +67,7 @@ h1{
     border-color:#F3B691;
     border-width: 5px;
     border-style: dotted;
-    display: block;       /* nötig für margin auto */
+    display: block;     
     margin: 0 auto; 
     margin-top: 30px;
 }
