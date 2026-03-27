@@ -1,4 +1,4 @@
-const startFrame = 1;
+const startFrame = 2;
 const endFrame = 9;
 const frames = [];
 
