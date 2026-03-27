@@ -10,8 +10,9 @@ body {
 }
 
 h1{
+    text-decoration: none;
     color:#CD0768;
-    font-size:80%;
+    font-size:60%;
     position: relative;
     font-family: myfont;
 
@@ -20,6 +21,7 @@ a{  color:#CD0768;
     position: relative;
     font-family: myfont;
     margin: 3%;
+    text-decoration: none;
 }
 #bild{
     width: 50vw;
