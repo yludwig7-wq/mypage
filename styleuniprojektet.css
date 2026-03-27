@@ -1,0 +1,65 @@
+body{
+    background-color: #C495FF;
+    
+}
+
+.back-button {
+
+    position: fixed;
+    bottom:5px; 
+    left: 5px;
+    z-index: 1000;
+}
+
+
+#Blume2 { position: absolute; top: 6%; right: 10%;width: 13vw; }
+#Blume3 { position: absolute; top: 30%; right: 2%;width: 7vw }
+#Blume1 { position: absolute; top: 75%; right: 3%; width: 12vw }
+#Blume5 { position: absolute; top: 25%; left: 16%; width: 7vw }
+#Blume4 { position: absolute; top: 5%; left: 5%; width: 12vw }
+
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+#uniprojekt{
+    width: 20vw;
+    display: flex;
+    border-color:#B5F4FF;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#container{
+    width: 70%;
+}
+h1{
+    text-align: center;
+     color:#FFF497;
+    font-family: myfont;
+    font-size: 1rem;  /* groß genug für Lücken */
+    font-weight: normal;
+   
+}
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/Starbim.ttf);
+}
+#gif{
+    width: 30vw;
+    border-color:#F3B691;
+    border-width: 2px;
+    border-style: dotted;
+    display: block;       /* nötig für margin auto */
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+

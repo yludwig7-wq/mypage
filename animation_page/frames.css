@@ -1,6 +1,6 @@
 
 body{
-    overflow: hidden;
+     overflow: hidden;
     background-color: #FFF497;
 }
 
@@ -10,13 +10,45 @@ body{
     width:100vw;
     display: flex;
     justify-content: center;
-    overflow: hidden;
+
 
 
 }
 
 #frame{
 
-    height:100vh;
+    height:95vh;
 
+}
+#Blume1 { position: absolute; top: 6%; right: 10%;width: 13vw; }
+#Blume2 { position: absolute; top: 30%; right: 2%;width: 7vw }
+#Blume3 { position: absolute; top: 10%; left: 15%; width: 12vw }
+#Blume4 { position: absolute; top: 70%; right: 3%; width: 15vw }
+#Blume5 { position: absolute; top: 30%; left: 7%; width: 9vw }
+
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+#blumen img {
+    width: 60px;
+    transition: transform 0.3s;
+}
+
+#blumen img:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+.back-button {
+    position: fixed;
+    bottom:5px; 
+    left: 5px;
+    z-index: 1000;
 }

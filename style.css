@@ -1,5 +1,8 @@
 body{
-    background-color: #FFC6EF
+    background-color: #FFC6EF;
+    margin:0;
+    padding:0;
+
 }
 
 h1{
@@ -30,12 +33,7 @@ a{  color:#CD0768;
 .button{
     width: 10vw;
 }
-#logo{
-    width: 50vw;
-    display: flex;
 
-
-}
 #Blume{
     width:10vw ;
 }
@@ -76,6 +74,69 @@ h1:hover{
 .container {
 display: flex;
 }
-.ontainer div {
+.container div {
 margin: 10 px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* full screen */
+    background-color: #FFC6EF;
+}
+
+/* Container that holds everything */
+.frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;         /* scales with viewport */
+   
+    text-align: center;
+}
+
+/* Logo at the top */
+.content-image {
+    width: 70%;          /* logo width */
+
+    margin-bottom: 5vw;
+}
+
+/* Navigation bar */
+.frame-container a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #CD0768;
+    font-size: 1.2rem;
+}
+
+.frame-container a:hover {
+    text-decoration: underline;
+}
+
+/* Picture/frame at the bottom */
+.frame {
+    width: 80%;          /* scales with container */
+    max-width: 600px;    /* optional */
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .content-image {
+        width: 50%;
+    }
+    .frame-container a {
+        font-size: 0.8rem;
+        margin: 0 10px;
+    }
+    .frame {
+        width: 90%;
+    }
 }
