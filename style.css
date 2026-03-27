@@ -69,6 +69,7 @@ h1:hover{
     transition: width 0,2s;
 }
 
+
 @media (orientation: portrait) {
     #bild {
         width: 100%;

@@ -10,6 +10,10 @@ body{
     left: 5px;
     z-index: 1000;
 }
+#button:hover {
+    transition:  transform 0.1s ease-out;
+    transform: scale(1.15); 
+}
 
 
 #Blume2 { position: absolute; top: 6%; right: 10%;width: 13vw; }

@@ -55,3 +55,7 @@ body{
 #button{
   width: 10vw;
 }
+#button:hover {
+    transition:  transform 0.1s ease-out;
+    transform: scale(1.15); 
+}
