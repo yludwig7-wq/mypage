@@ -52,3 +52,6 @@ body{
     left: 5px;
     z-index: 1000;
 }
+#button{
+  width: 10vw;
+}

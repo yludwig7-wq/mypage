@@ -30,11 +30,14 @@ body{
 #logo {
     width: 90vw;
     display: inline-block;         
-     /* sanfte Animation */
     cursor: pointer;               
 }
 
 #logo:hover {
     transition:  transform 0.1s ease-out;
-    transform: scale(1.15);     
+    transform: scale(1.15); 
+    cursor: url("./images/cursor.svg"), auto;
+}    
+#button{
+  width: 10vw;
 }
